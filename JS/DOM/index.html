@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom In HTML</title>
+    <style>
+        .blue{
+            color: blue;
+        }
+        .f50{
+            font-size: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="first">
+        <!-- data-*   -->
+        <h1 class="hadding" data-fname = "Shlok" data-lname = "Shlok" >Hello</h1>
+        <h1 class="hadding">Hello1</h1>
+        <h1 class="hadding">Hello2</h1>
+        <div class="second blue"><p>Hey.....!</p></div>
+    </div>
+    <div>
+        <form action="">
+            Fname:- <input type="text" name="fname" id="">
+            Lname:- <input type="text" name="lname" id="">
+        </form>
+    </div>
+
+    <div id="div">
+        <button onclick="toggle();">Click me</button>
+    </div>
+
+
+
+    <script>
+        // How to Get Ele through ID
+        // document.getElementById("first")
+
+        //Create Element
+        // let div = document.createElement("div");
+
+        // // Class Assign
+        // div.className = "blue";
+
+        // // Add HTML
+        // div.innerHTML = "<h1>Hello 3</h1>"
+
+        // Appeded to Body
+
+        // Append to a Element
+        // document.body.append(div);
+
+        // Prepend to a Element
+        // document.getElementById("first").prepend(div);
+
+        // //Before any node
+        // document.getElementsByClassName("second")[0].before(div);
+
+        // // after any node
+        // document.getElementsByClassName("hadding")[0].after(div);
+
+        // // replace With
+
+        // let b = document.getElementsByClassName("second")[0];
+
+        // b.replaceWith(div);
+
+
+
+        // Insert Adjacent HTML/TEXT/Element
+
+        // let x = document.getElementById("first");
+
+        // const ele = document.createElement("h1");
+        // ele.className = "blue";
+        // ele.innerText = "Hello4";
+
+        // x.insertAdjacentElement('beforebegin' , ele);
+        // x.insertAdjacentElement('afterbegin' , ele);
+        // x.insertAdjacentElement('afterend' , ele);
+        // x.insertAdjacentElement('beforeend' , ele);
+        // x.insertAdjacentHTML('beforebegin' , '<h1>hello5</h1>');
+        // x.insertAdjacentText('beforebegin' , '<h1>hello5</h1>');
+
+        // ele.remove();
+
+        let ele = document.getElementsByClassName("second")[0];
+
+        console.log(ele.classList);
+        ele.classList.add("f50");
+        console.log(ele.classList);
+        // ele.classList.remove("blue");
+        console.log(ele.classList);
+
+
+        function toggle() {
+            ele.classList.toggle("blue");
+        }
+    </script>
+</body>
+</html>

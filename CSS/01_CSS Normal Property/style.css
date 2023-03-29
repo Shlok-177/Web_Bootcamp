@@ -1,0 +1,31 @@
+/* Set the text color to red */
+.red-text {
+    color: red;
+  }
+
+  /* Set the background color to yellow */
+  .yellow-bg {
+    background-color: yellow;
+  }
+
+  /* Set a solid black border with a width of 2px */
+  .black-border {
+    border: 2px solid black;
+  }
+
+  /* Set the font to Arial, size 16px, and bold */
+  .arial-font {
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  /* Set a margin of 50px around the element */
+  .large-margin {
+    margin: 50px;
+  }
+
+  /* Set a padding of 25px inside the element */
+  .large-padding {
+    padding: 25px;
+  }

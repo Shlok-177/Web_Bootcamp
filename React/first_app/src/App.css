@@ -1,0 +1,19 @@
+.red{
+    color: red;
+}
+
+.btn{
+    width: 160px;
+    height: 60px;
+    background: rgb(24, 24, 24);
+    color: white;
+    font-family: monospace;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px;
+}
+.btn:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}

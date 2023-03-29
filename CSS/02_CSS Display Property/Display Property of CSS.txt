@@ -1,0 +1,19 @@
+The CSS display property is a crucial aspect of web design, as it determines how an element is displayed on the web page. In this blog, we will cover all of the different values that the display property can take and how they affect the layout and rendering of elements on the page.
+
+There are several different values that the display property can take, each with its own unique characteristics and behaviors.
+
+One of the most commonly used values is "block". Elements with a display value of block are treated as blocks, meaning that they will take up the full width of their parent container and create a new line after themselves. Some examples of elements that are displayed as blocks by default include divs, h1-h6 tags, and p tags.
+
+Another common value is "inline". Elements with a display value of inline are treated as inline elements, meaning that they will only take up as much space as necessary and will not create a new line after themselves. Some examples of elements that are displayed as inline by default include span tags and a tags.
+
+There are also several other values that the display property can take, including "inline-block", "flex", "grid", "none", and "table".
+
+The "inline-block" value is a hybrid of the block and inline values, allowing elements to be displayed as blocks but without creating a new line after themselves. This is useful for creating horizontal layouts without using float.
+
+The "flex" and "grid" values allow for the creation of flexible layouts, allowing elements to be arranged in a grid or flexible layout rather than the traditional block-level layout.
+
+The "none" value will hide an element from view, while the "table" value allows for the creation of table-like layouts using divs and other elements.
+
+The visibility CSS property determines whether an element is visible or not. When an element has a visibility value of hidden, it will be hidden from view but will still take up the same space it would have if it were visible. This means that other elements on the page will not shift to fill the space left by the hidden element.
+
+In conclusion, the display property is a powerful tool in CSS that allows for the manipulation of the layout and rendering of elements on a web page. Understanding the different values and how they behave is essential for any web developer looking to create beautiful and effective web designs.	
